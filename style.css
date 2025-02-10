@@ -1,0 +1,32 @@
+body {  
+    font-family: 'Poppins', sans-serif;  
+}  
+
+#randomTopic {  
+    font-size: 20px;  
+    font-weight: bold;  
+    padding: 10px;  
+    text-align: center;  
+}  
+
+#generateButton {  
+    display: block;  
+    margin: 20px auto;  
+    padding: 10px 20px;  
+    background: hotpink;  
+    color: white;  
+    font-size: 16px;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+}  
+
+#timer {  
+    font-size: 18px;  
+    margin-top: 10px;  
+    font-weight: bold;  
+    text-align: center;  
+}  
+
+#message {  
+    font-size: 16px
