@@ -1,17 +1,24 @@
 body {  
     font-family: 'Poppins', sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    justify-content: center;  
+    height: 100vh;  
+    background-color: #f0f0f0;  
 }  
 
 #randomTopic {  
-    font-size: 20px;  
+    font-size: 24px;  
     font-weight: bold;  
-    padding: 10px;  
+    margin: 20px 0;  
     text-align: center;  
+    color: #333;  
 }  
 
 #generateButton {  
-    display: block;  
-    margin: 20px auto;  
     padding: 10px 20px;  
     background: hotpink;  
     color: white;  
@@ -19,14 +26,22 @@ body {
     border: none;  
     border-radius: 5px;  
     cursor: pointer;  
+    transition: background 0.3s ease;  
+}  
+
+#generateButton:hover {  
+    background: #ff69b4;  
 }  
 
 #timer {  
     font-size: 18px;  
-    margin-top: 10px;  
     font-weight: bold;  
-    text-align: center;  
+    margin: 10px 0;  
+    color: #333;  
 }  
 
 #message {  
-    font-size: 16px
+    font-size: 16px;  
+    color: #333;  
+    margin: 10px 0;  
+}
